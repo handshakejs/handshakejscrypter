@@ -11,7 +11,7 @@ const (
 )
 
 func TestEncryptionAndDecryption(t *testing.T) {
-	handshakejscrypter.Setup("supersecret")
+	handshakejscrypter.Setup("somesecretsaltofaspecificlength.") //32 bytes
 
 	cipher := handshakejscrypter.Encrypt(ORIGINAL_PLAINTEXT)
 	log.Println(cipher)

@@ -14,12 +14,7 @@ var (
 )
 
 func Setup(key string) {
-	KEY = convertStringTo64Bits(key)
-}
-
-func convertStringTo64Bits(text string) []byte {
-	base64_string := encodeBase64([]byte(text))
-	return []byte(base64_string)
+	KEY = []byte(key)
 }
 
 func encodeBase64(b []byte) string {
