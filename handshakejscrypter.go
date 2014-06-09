@@ -7,6 +7,7 @@ import (
 	"encoding/base64"
 	"encoding/hex"
 	"io"
+	"log"
 )
 
 var (
@@ -14,6 +15,9 @@ var (
 )
 
 func Setup(key string) {
+	if len(key) != 32 {
+		log.Fatal("Key size must be 32 bits long")
+	}
 	KEY = []byte(key)
 }
 
