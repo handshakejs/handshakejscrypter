@@ -1,6 +1,6 @@
 # handshakejscrypter
 
-<img src="https://raw.githubusercontent.com/handshakejs/handshakejscrypter/master/handshakejscrypter.gif" alt="handshakejscrypter" align="right" width="190" />
+<img src="https://raw.githubusercontent.com/handshakejs/handshakejscrypter/master/handshakejscrypter.gif" alt="handshakejscrypter" align="right" width="270" />
 
 [![BuildStatus](https://travis-ci.org/handshakejs/handshakejscrypter.png?branch=master)](https://travis-ci.org/handshakejs/handshakejscrypter)
 
