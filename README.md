@@ -19,7 +19,7 @@ import (
 )
 
 func main() {
-  handshakejscrypter.Setup("supersecretkey")
+  handshakejscrypter.Setup("somesecretsaltthatis32characters") // 32 bytes
 
   ciphertext := handshakejscrypter.Encrypt("some text to encrypt")
   fmt.Println(ciphertext)
